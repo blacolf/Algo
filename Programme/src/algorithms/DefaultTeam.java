@@ -137,7 +137,7 @@ public class DefaultTeam {
     
     //test version
     
-    /*
+    
     ArrayList<Point> recMin = new ArrayList<Point>();
     for(int i=0; i < parcResult.size(); i++) {
     	Point p = parcResult.get(i);
@@ -191,9 +191,9 @@ public class DefaultTeam {
     	
     }
     return recMin;
-  } */
+  } 
     
-    for (int i = 0; i=< (enveloppe.size(); i++){
+    /*for (int i = 0; i=< (enveloppe.size(); i++){
         Point A = parcResult.get (i);
         Point B = parcResult.get ((i+1)% parcResult.size());
     //1.3
@@ -258,7 +258,9 @@ public class DefaultTeam {
         	
         }
         return recMin;
-    }
+    }*/
+    
+    
   //Produit vectoriel
   private double crossProduct(Point p, Point q, Point s, Point t) {
 	  return (q.x-p.x)*(t.y-s.y)-(q.y-p.y)*(t.x-s.x);
